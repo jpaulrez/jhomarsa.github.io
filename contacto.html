@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contactanos.css">
+
+    <!-- Enlazar a la libreria de iconos de fuente font-awesome 6.1.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Enlazar con el archivo javascript para el botón "scroll-arriba" -->
+    <script src="js/boton-ariba.js"></script>
+</head>
+<body>
+    <!-- Contenedor -->
+    <div id="container">
+        <nav class="nav-main">
+            <img src="Iconos/jhomarsa_letras2.ico" alt="Jhomarsa Logo" class= "nav-brand">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="name-menu-link">NOSOTROS</a></li>
+                <li><a href="index.html" class="name-menu-link">SERVICIOS</a></li>
+                <li><a href="index.html" class="name-menu-link">PROYECTOS</a></li>
+                <li><a href="index.html" class="name-menu-link">EQUIPO</a></li>
+                <li><a href="index.html" class="name-menu-link">CONTACTO</a></li>
+            </ul> <!-- nav-menu -->
+        </nav>  <!-- nav-main -->
+    </div> <!-- Container -->
+
+    <!-- Menú superior -->
+    <nav id="menu-superior">
+        <div class="contenedor">
+            <div class="fila">
+                <!-- unorder list -->
+                <ul class="menu-barra">
+                    <li><a title="JHOMARSA" href="index.html">JHOMARSA</a></li>
+                    <li><a title="CASACOR PERU" href="casacor_peru.html">CASACOR PERU</a></li>
+                    <li><a title="Contáctanos" href="contacto.html">CONTÁCTANOS</a></li>
+                </ul> <!-- menu-barra -->
+
+                <ul class="menu-barra">
+                    <li>
+                        <!-- Enlace con destino "mailto" -->
+                        <a title="Escríbenos por correo" href="mailto:jhomarsacorporacion@gmail.com?subject=Quiero información">
+                            <i class="fa-solid fa-envelope fa-fw"></i> jhomarsacorporacion@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <!-- Enlace con destino a whatsapp -->
+                        <a title="Escríbenos al Whatsapp" target="_blank" href="https://wa.me/message/45WSP7TSGKX3H1">
+                            <i class="fa-brands fa-whatsapp"></i> +51 91939973436
+                        </a>
+                    </li>
+                </ul> <!-- menu-barra -->
+
+                <ul class="menu-barra">
+                    <li>
+                        <a target="Whatsapp" href="https://wa.me/message/45WSP7TSGKX3H1">
+                            <i class="fa-brands fa-whatsapp-square fa-fw"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Instagram" target="_blank" href="https://www.instagram.com/jhomarsamobiliarias/">
+                            <i class="fa-brands fa-instagram-square fa-fw"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Youtube" target="_blank"  href="https://www.facebook.com/jhomarsamobiliarias">
+                            <i class="fa-brands fa-facebook fa-fw"></i>
+                        </a>
+                    </li>
+                </ul> <!-- menu-barra -->
+            </div> <!-- fila -->
+        </div> <!-- contenedor -->
+    </nav> <!-- menu-superior -->
+
+    <!-- Cabecera de contacto -->
+    <header id="contacto-cabecera">
+        <div class="contenedor">
+            <h2>Contáctanos</h2>
+        </div> <!-- contenedor -->
+    </header> <!-- contacto-cabecera -->
+
+    <!-- Contacto formulario -->
+    <section id="contacto-formulario" class="espaciado">
+        <div class="thebox"> <!-- Caja padre -->
+            <div class="fila"> <!-- columna 1 -->
+                <figure class="columna">
+                    <img src="Imagenes/Personas/Chill03.jpg" alt="persona" class="img-ajustar">    
+                </figure>
+
+                <div class="columna alinear-vertical"> <!-- columna 2 -->
+                    <!-- Contenedor formulario -->
+                    <form id="formulario-objeto" action="contacto.php" method="post">
+                    <h3>Quiero recibir información</h3>
+        
+                    <div class="entrada-campo">
+                        <input class="form-campo" type="text" placeholder="Ingresa tu nombre" required>
+                    </div>
+
+                    <div class="entrada-campo">
+                        <input class="form-campo" type="text" placeholder="Ingresa tu apellido" required>
+                    </div>
+        
+                    <div class="entrada-campo">
+                        <input class="form-campo" type="tel" placeholder="Ingresa tu número de celular" required>
+                    </div>
+        
+                    <div class="entrada-campo">
+                        <input class="form-campo" type="email" placeholder="Ingresa tu correo electrónico" required>
+                    </div>
+        
+                    <div class="entrada-campo">
+                        <select class="form-campo" required>
+                            <option value="0" selected hidden>Servicio de interés</option>
+                            <option value="1">Decoración de interiores</option>
+                            <option value="2">Fabricación de muebles</option>
+                        </select>
+                    </div>
+        
+                    <p>
+                        <input type="checkbox" required>
+                        He leído y acepto los <a href="#">Términos y condiciones</a>
+                    </p>
+        
+                    <p>
+                        <input class="boton-enviar" type="submit" value="Enviar">
+                    </p>
+                    </form>  <!-- formulario-objeto -->
+                </div> <!-- columna 2 -->
+            </div> <!-- columna 1 -->
+        </div> <!-- Caja padre -->
+    </section> <!-- Nosotros -->
+
+
+
+    <!-- Servicios -->
+    <section id="contacto-mapa" class="espaciado">
+        <div class="thebox">
+            <h2>Fabrica:</h2>
+            <hr>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.7466166798035!2d-76.93298958546269!3d-12.197636648045709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b944727886ed%3A0x4a0394375f4119e5!2sJhomarsa%20Mobiliarias!5e0!3m2!1ses!2spe!4v1650940566230!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Av. Jorge Chávez 523 Zona Industrial La Tablada Villa María Del Triunfo</p>
+        </div>
+    </section> <!-- Servicios -->
+
+    <!-- Pie de pagina -->
+    <footer class="pie-pagina">
+        <div class="grupo-1"> <!-- grupos-1 -->
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="Iconos/jhomarsa_letras2.ico" alt="Logo-Jhomarsa">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>CONTACTANOS</h2>
+                <p>Email: jhomarsacorporacion@gmail.com</p>
+                <p>Celular: +51 939973436</p>
+                <p>Fabrica: Av. Jorge Chávez 523 Zona Industrial La Tablada Villa María Del Triunfo</p>
+                <div class="red-social">
+                    <a target="_blank" href="https://wa.me/message/45WSP7TSGKX3H1">
+                        <i class="fa-brands fa-whatsapp-square"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a target="_blank"  href="https://www.gmail.com/">
+                        <i class="fa-solid fa-at"></i>
+                    </a>
+                </div> <!-- red-social -->
+            </div> <!-- box -->
+        </div> <!-- grupos-1 -->
+
+
+        
+        <div class="grupo-2">
+            <small>&copy; Jhomarsa Mobiliarias 2022</small>
+        </div> <!-- grupo-2 -->
+
+    </footer> <!-- Pie de pagina -->
+
+
+    <!-- Botón "scroll-arriba" -->
+    <a href="#" id="scroll-arriba">
+        <i class="fa-solid fa-angle-up fa-fw"></i>
+    </a>
+</body>
+</html>
